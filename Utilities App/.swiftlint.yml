@@ -1,0 +1,67 @@
+#
+//  .swiftlint.yml
+//  Utilities App
+//
+//  Created by Mario Ohashi on 03/11/25.
+//
+
+
+# SwiftLint configuration for SwiftUI projects
+
+# Disabled rules (not useful or disruptive in SwiftUI context)
+disabled_rules:
+  - trailing_whitespace
+  - line_length
+  - vertical_whitespace_between_cases
+  - type_name
+  - identifier_name
+  - force_cast
+  - force_try
+  - function_body_length
+  - file_length
+  - cyclomatic_complexity
+
+# Manually enabled rules
+opt_in_rules:
+  - empty_count
+  - explicit_init
+  - fatal_error_message
+  - unused_declaration
+  - redundant_optional_initialization
+  - redundant_nil_coalescing
+
+# Included directories
+included:
+  - UtilitiesApp
+
+# Excluded directories
+excluded:
+  - Pods
+  - Carthage
+  - fastlane
+  - .build
+
+# Specific configurations
+line_length:
+  warning: 120
+  error: 160
+  ignores_comments: true
+  ignores_urls: true
+
+type_body_length:
+  warning: 200
+  error: 300
+
+function_parameter_count:
+  warning: 5
+  error: 8
+
+# Indentation style
+indentation:
+  indentation_width: 4
+  include_comments: false
+
+# Spacing between elements
+vertical_whitespace:
+  max_empty_lines: 2
+  ignore_empty_lines_in_comments: true
