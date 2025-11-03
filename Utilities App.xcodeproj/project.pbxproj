@@ -10,9 +10,33 @@
 		A3AC620C2EB534950062A078 /* Utilities App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Utilities App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A37F13162EB951040074B894 /* Exceptions for "Utilities App" folder in "Utilities App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				.gitignore,
+			);
+			target = A3AC620B2EB534950062A078 /* Utilities App */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+		A37F13172EB951040074B894 /* Exceptions for "Utilities App" folder in "Compile Sources" phase from "Utilities App" target */ = {
+			isa = PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet;
+			buildPhase = A3AC62082EB534950062A078 /* Sources */;
+			membershipExceptions = (
+				.gitignore,
+			);
+		};
+/* End PBXFileSystemSynchronizedGroupBuildPhaseMembershipExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		A3AC620E2EB534950062A078 /* Utilities App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A37F13162EB951040074B894 /* Exceptions for "Utilities App" folder in "Utilities App" target */,
+				A37F13172EB951040074B894 /* Exceptions for "Utilities App" folder in "Compile Sources" phase from "Utilities App" target */,
+			);
 			path = "Utilities App";
 			sourceTree = "<group>";
 		};
