@@ -68,10 +68,11 @@ Displays dynamic data obtained from external APIs.
 * **Daily News:** Obtained via RSS feeds or news APIs.
 * **Daily Horoscope:** Displayed based on an astrology API or fixed content.
 
-## 📂 Project Structure
+### 📂 Project Structure
 
-The file organization reflects the MVVM pattern, ensuring a clear separation between the UI, business logic, and data handling.
+The file organization follows the MVVM pattern for a clear separation of concerns.
 
+```bash
 UtilitiesApp/
 ├── Models/              # Data structures (Decodable)
 ├── Views/               # User Interface components (SwiftUI)
